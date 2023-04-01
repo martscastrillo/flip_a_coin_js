@@ -16,13 +16,13 @@ flipBtn.addEventListener("click", ( ) =>{
         setTimeout(() => {
             coin.style.animation = "spin_tails 3s forwards";
         }, 100);
-        heads++;
+        tails++;
     }
     else{
         setTimeout(() => {
             coin.style.animation = "spin_heads 3s forwards";
         }, 100);
-        tails++;
+        heads++;
     }
     setTimeout(updateStats, 3000);
     disableButton();
