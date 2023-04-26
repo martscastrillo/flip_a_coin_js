@@ -16,7 +16,7 @@ html {
 
 .container {
 	background-color: antiquewhite;
-	width: 400px;
+	width: 350px;
 	padding: 50px;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -31,7 +31,7 @@ html {
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 35px;
 	color: rgb(197, 115, 0);
 }
 
